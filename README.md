@@ -1,12 +1,16 @@
 # Sakila exercises
 
 1. Select all Actors from the table. 
-	SELECT * FROM actors; 
-		result :200 actors
+
+SELECT * FROM actors; 
+
+result :200 actors
     
 2. Find the actor with the first name “John”. 
-	SELECT * FROM actor WHERE first_name ="john";    
-		result: John Suvari
+	
+SELECT * FROM actor WHERE first_name ="john";    
+		
+result: John Suvari
     
 3. Find all actors with the surname “Neeson”. 
 	SELECT * FROM actor WHERE last_name ="neeson"; 
