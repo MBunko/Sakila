@@ -151,5 +151,4 @@ select category, count(FID) from film_list group by category;
 +-------------+------------+
     
 29. Create a list of actors and the number of movies by each actor.
-select a.first_name, a.last_name, count(f.film_id) from actor a join film_actor f on a.actor_id=f.actor_id g
-roup by a.first_name, a.last_name;
+select a.first_name, a.last_name, count(f.film_id) from actor a join film_actor f on a.actor_id=f.actor_id group by a.first_name, a.last_name;
